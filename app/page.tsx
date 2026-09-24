@@ -7,10 +7,10 @@ import { WA_GENERAL, WA_OFFER } from "@/lib/brand";
 import { OFFER_DATA } from "@/lib/offer-data";
 
 /* ============================================================
-   FYP Desk — protected home page
+   FYP Desk - protected home page
    Port of apps/fyp-service-app/index.html with the Q4 changes.
    The server checks the session cookie before rendering (A3 §4)
-   — a visitor without it only ever receives the login page.
+   - a visitor without it only ever receives the login page.
    ============================================================ */
 
 function OfferLine() {
@@ -18,20 +18,20 @@ function OfferLine() {
   const left = Math.max(0, totalSpots - spotsTaken);
 
   if (left >= totalSpots) {
-    return <p className="offer-line">Limited offer — be the first to claim a spot.</p>;
+    return <p className="offer-line">Limited offer - be the first to claim a spot.</p>;
   }
   if (left > 1) {
     return (
       <p className="offer-line">
         <span className="offer-spots">{left} spots left of {totalSpots}</span>
-        {" "}— the full Plan 2 at {offerPrice} Rs. instead of {standardPrice}.
+        {" "}- the full Plan 2 at {offerPrice} Rs. instead of {standardPrice}.
       </p>
     );
   }
   if (left === 1) {
     return (
       <p className="offer-line">
-        <span className="offer-spots">Only 1 spot left</span> — the full Plan 2 at {offerPrice} Rs. instead of {standardPrice}.
+        <span className="offer-spots">Only 1 spot left</span> - the full Plan 2 at {offerPrice} Rs. instead of {standardPrice}.
       </p>
     );
   }
@@ -46,12 +46,12 @@ const steps = [
   {
     num: "01",
     title: "Talk",
-    text: "One meaningful conversation — you describe your idea, your group, and what is in your mind. That is the whole test. After this, making it happen is my responsibility.",
+    text: "One meaningful conversation - you describe your idea, your group, and what is in your mind. That is the whole test. After this, making it happen is my responsibility.",
   },
   {
     num: "02",
     title: "Free proposal",
-    text: "After we talk, you receive the proposal free — the idea, the scope, the price. You decide with zero risk and zero payment made.",
+    text: "After we talk, you receive the proposal free - the idea, the scope, the price. You decide with zero risk and zero payment made.",
   },
   {
     num: "03",
@@ -61,7 +61,7 @@ const steps = [
   {
     num: "04",
     title: "Delivery at 100%",
-    text: "Full access — code, documents, and everything built transfers to you after the final payment. The same rule applies to Plan 1 and Plan 2.",
+    text: "Full access - code, documents, and everything built transfers to you after the final payment. The same rule applies to Plan 1 and Plan 2.",
   },
 ];
 
@@ -80,7 +80,7 @@ export default function Home() {
                 Your FYP <span className="finish">finished</span> with certainty
               </h1>
               <p className="hero-subheading">
-                Two ways forward — build it yourself with a complete kit behind
+                Two ways forward - build it yourself with a complete kit behind
                 you, or hand it over and walk into your defense prepared. Either
                 way, you finish this semester done.
               </p>
@@ -114,16 +114,16 @@ export default function Home() {
                     <path d="m21.5 11.5-1.914-1.914A2 2 0 0 1 19 8.172V7l-2.26-2.26a6 6 0 0 0-4.202-1.756L9 2.96l.92.82A6.18 6.18 0 0 1 12 8.4V10l2 2h1.172a2 2 0 0 1 1.414.586L18.5 14.5" />
                   </svg>
                 </span>
-                <h3 className="choice-title">Plan 1 — The Builder</h3>
+                <h3 className="choice-title">Plan 1 - The Builder</h3>
                 <p className="step-text">
                   This is for you if you are the student who wants to build it
-                  with your own hands — the one with the energy to take the
+                  with your own hands - the one with the energy to take the
                   challenge and the mind to finish it.
                 </p>
                 <ul className="choice-features">
                   <li>
                     You get the validated idea, the advisor-ready proposal, and
-                    the full specification — plus the ready guidance kit and
+                    the full specification - plus the ready guidance kit and
                     free coding-agent setup so you can build it yourself
                   </li>
                   <li>
@@ -140,7 +140,7 @@ export default function Home() {
                     <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" />
                   </svg>
                 </span>
-                <h3 className="choice-title">Plan 2 — The Guided</h3>
+                <h3 className="choice-title">Plan 2 - The Guided</h3>
                 <p className="step-text">
                   This is for you if you have the will to learn but the semester
                   is heavy and the pressure is real. Hand the build to someone
@@ -149,7 +149,7 @@ export default function Home() {
                 </p>
                 <ul className="choice-features">
                   <li>
-                    You want the whole thing handled — idea through final
+                    You want the whole thing handled - idea through final
                     defense, including the training and viva prep after the
                     build
                   </li>
@@ -166,7 +166,7 @@ export default function Home() {
           <div className="container">
             <h2 className="section-heading">The two plans</h2>
             <p className="plans-intro">
-              Two ways to work with me. Fixed prices — no hidden charges.
+              Two ways to work with me. Fixed prices - no hidden charges.
             </p>
             <PlanTabs />
           </div>
@@ -197,7 +197,7 @@ export default function Home() {
             <h2 className="section-heading">How it works</h2>
             <p className="process-intro">
               One conversation is all the input needed. From there, it is my
-              responsibility — here is exactly how it runs, including payment.
+              responsibility - here is exactly how it runs, including payment.
             </p>
             <div className="process-grid">
               {steps.map((step) => (
@@ -251,7 +251,7 @@ export default function Home() {
             <h2 className="cta-heading">Not sure yet?</h2>
             <p className="cta-text">
               Send me a message and tell me where your group is. We talk, and I
-              tell you what fits — or I tell you honestly when it does not.
+              tell you what fits - or I tell you honestly when it does not.
             </p>
             <a href={WA_GENERAL} className="btn btn-invert btn-large" target="_blank" rel="noopener noreferrer">
               Message me on WhatsApp

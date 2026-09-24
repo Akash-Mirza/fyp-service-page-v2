@@ -7,7 +7,7 @@ import { OFFER_DATA } from "@/lib/offer-data";
 import ThemeToggle from "@/app/theme-script";
 
 /* ============================================================
-   FYP Desk — shared site chrome (client components)
+   FYP Desk - shared site chrome (client components)
    Header: DESK wordmark + emerald dot, nav, offer bell (while
    spots remain), theme toggle, mobile hamburger. Footer: same
    wordmark, no slogan, no personal name.
@@ -48,7 +48,7 @@ export function DeskWordmark() {
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // Static data — computable at render time, no state/effect needed.
+  // Static data - computable at render time, no state/effect needed.
   const spotsLeft = Math.max(0, OFFER_DATA.totalSpots - OFFER_DATA.spotsTaken);
 
   const nav = (
@@ -122,7 +122,7 @@ export function Footer() {
             <Link className="header-logo" href="/" aria-label="FYP Desk home">
               <DeskWordmark />
             </Link>
-            <p className="footer-copy">FYP Desk — a service for class fellows.</p>
+            <p className="footer-copy">FYP Desk - a service for class fellows.</p>
           </div>
         </div>
         <div className="footer-bottom">

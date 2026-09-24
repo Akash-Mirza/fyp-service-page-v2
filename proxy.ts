@@ -1,7 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 
 /* ============================================================
-   FYP Desk — the gate (A3 §4)
+   FYP Desk - the gate (A3 §4)
    Runs on every request: no valid session cookie → the visitor
    is redirected to /login and never receives protected content.
    /login and static assets stay reachable; everything else

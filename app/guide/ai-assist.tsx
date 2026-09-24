@@ -6,10 +6,10 @@ import { AI_CONTEXT } from "@/lib/ai-context";
 import { Icon } from "@/lib/brand";
 
 /* ============================================================
-   FYP Desk — Ask an AI bar (guide page, client component)
+   FYP Desk - Ask an AI bar (guide page, client component)
    Chips render from lib/ai-context.ts. Clicking a chip opens
    the assistant in a new tab and copies the FULL page context
-   (plans, offer, kit, viva prep) to the clipboard — the visitor
+   (plans, offer, kit, viva prep) to the clipboard - the visitor
    just pastes and asks. This is the Q4 fix: the copied context
    now describes the whole offer, not a two-line blurb.
    ============================================================ */
@@ -61,8 +61,8 @@ export default function AiAssist() {
           Still unsure about the flow?
         </h2>
         <p className="ai-assist-intro">
-          Pick an assistant. The full context of this service — both plans,
-          what is included, the guidance kit, and the viva prep — is copied to
+          Pick an assistant. The full context of this service - both plans,
+          what is included, the guidance kit, and the viva prep - is copied to
           your clipboard, so all you do is paste and ask.
         </p>
         <div className="ai-assist-chips">

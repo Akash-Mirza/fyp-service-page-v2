@@ -1,11 +1,11 @@
 /* ============================================================
-   FYP Desk — Brand constants + lucide icon paths (A29 §5)
+   FYP Desk - Brand constants + lucide icon paths (A29 §5)
    The brand's icon system is lucide (https://lucide.dev).
    Icons are rendered inline as SVG paths via <Icon name="" />.
    WhatsApp Business number: the ONLY front door (Q4).
    ============================================================ */
 
-export const WHATSAPP_NUMBER = "923116554362"; // 0311 6554362 — WhatsApp Business
+export const WHATSAPP_NUMBER = "923116554362"; // 0311 6554362 - WhatsApp Business
 
 export function waLink(text: string): string {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;

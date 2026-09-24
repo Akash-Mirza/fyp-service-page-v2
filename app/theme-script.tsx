@@ -3,12 +3,12 @@
 import { useState } from "react";
 
 /* ============================================================
-   FYP Desk — theme toggle (client component)
+   FYP Desk - theme toggle (client component)
    Light / dark only, no third option (brand rule). Persists to
    localStorage under the same key as the old app, and the
    layout's inline script applies it before first paint.
    The active state is derived from the DOM attribute (set by
-   the inline script before paint) — no setState-in-effect.
+   the inline script before paint) - no setState-in-effect.
    ============================================================ */
 
 const THEME_KEY = "fyp-desk-theme";

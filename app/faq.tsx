@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 /* ============================================================
-   FYP Desk — FAQ accordion (home page)
+   FYP Desk - FAQ accordion (home page)
    ============================================================ */
 
 const faqs = [
@@ -13,11 +13,11 @@ const faqs = [
   },
   {
     q: "What if we already have an idea?",
-    a: "Plan 1 still helps — I validate it, write the proposal and spec, and set up your environment. Plan 2 handles the whole build from where you are.",
+    a: "Plan 1 still helps - I validate it, write the proposal and spec, and set up your environment. Plan 2 handles the whole build from where you are.",
   },
   {
     q: "What if we are mid-way through and stuck?",
-    a: "Message me and tell me where you are. Plan 2 can pick up from any stage. Plan 1 does not cover rescue — it covers starting from scratch.",
+    a: "Message me and tell me where you are. Plan 2 can pick up from any stage. Plan 1 does not cover rescue - it covers starting from scratch.",
   },
   {
     q: "Do we own the code and the documents?",

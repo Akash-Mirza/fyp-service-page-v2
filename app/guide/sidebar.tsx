@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { Icon, type IconName } from "@/lib/brand";
 
 /* ============================================================
-   FYP Desk — guide sidebar with scrollspy (A30 §5 port)
+   FYP Desk - guide sidebar with scrollspy (A30 §5 port)
    [icon + label] links; sticky on desktop, horizontal chip row
    on mobile. The active item follows the section in view.
    ============================================================ */

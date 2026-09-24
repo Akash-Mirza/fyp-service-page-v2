@@ -1,6 +1,6 @@
 /* ============================================================
-   FYP Desk — Offer data
-   Edit `spotsTaken` only. 0..5. Commit + push — the page updates.
+   FYP Desk - Offer data
+   Edit `spotsTaken` only. 0..5. Commit + push - the page updates.
    ============================================================ */
 
 export const OFFER_DATA = {

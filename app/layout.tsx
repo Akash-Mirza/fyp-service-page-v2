@@ -5,11 +5,11 @@ import { JetBrains_Mono, Montserrat, Oxanium } from "next/font/google";
 import "./globals.css";
 
 /* ============================================================
-   FYP Desk — root layout
+   FYP Desk - root layout
    Title stays "FYP Desk" (Q4); the wordmark is "DESK".
    Fonts: the locked brand trio, self-hosted via next/font
-   (brand rule — font loading must not block render).
-   noindex: the site is a private, gated service (A2 §3) —
+   (brand rule - font loading must not block render).
+   noindex: the site is a private, gated service (A2 §3) -
    crawlers must never list it.
    ============================================================ */
 
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   },
 };
 
-/* Theme before paint — no flash of the wrong theme.
+/* Theme before paint - no flash of the wrong theme.
    Same key + behavior as the old app (fyp-desk-theme). */
 const themeScript = `document.documentElement.setAttribute('data-theme',(function(){try{var s=localStorage.getItem('fyp-desk-theme');if(s==='light'||s==='dark')return s;return window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}catch(e){return 'light';}})());`;
 

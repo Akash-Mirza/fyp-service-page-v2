@@ -5,7 +5,7 @@ import { redirect } from "next/navigation";
 import { createSession, verifyPassword } from "@/lib/auth";
 
 /* ============================================================
-   FYP Desk — login server action (A3 §2/§4)
+   FYP Desk - login server action (A3 §2/§4)
    The password is compared ON THE SERVER (this module never
    reaches the browser). Success writes an HttpOnly session
    cookie and only then are the protected pages served.

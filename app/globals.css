@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 /* ============================================================
-   FYP Desk — Brand Styles (fyp-service-page-v2)
+   FYP Desk - Brand Styles (fyp-service-page-v2)
    Ported 1:1 from the source/ideal repo apps/fyp-service-app
    (styles/main.css + styles/docs.css, A29/A30 lineage), with the
    Q4 changes: DESK wordmark, WhatsApp Business number, header
    control-size consistency fix, private-access (login) styles.
    Colors follow the BCE palette (Certainty Blue / Midnight
-   Certainty) — styling rules only, no BCE identity assets.
+   Certainty) - styling rules only, no BCE identity assets.
    ============================================================ */
 
 /* ============================================================
@@ -63,7 +63,7 @@
   --bar-max: 1200px;
   --section-padding: var(--space-16);
 
-  /* --- Radii — ONE corner radius everywhere (0.625rem) --- */
+  /* --- Radii - ONE corner radius everywhere (0.625rem) --- */
   --radius:      0.625rem;
   --radius-full: 9999px;
 
@@ -79,7 +79,7 @@
 }
 
 /* --- Colors: Dark mode ("Midnight Certainty") ---
-   Top-level block — must NOT sit inside :root.
+   Top-level block - must NOT sit inside :root.
    Emerald never changes: the seal. */
 [data-theme="dark"] {
   --color-bg-primary:    #0b1120;
@@ -93,7 +93,7 @@
 
   --color-certainty-blue: #3B82F6;
   --color-cyan-accent:    #22D3EE;
-  /* Emerald stays the same — the seal does not invert */
+  /* Emerald stays the same - the seal does not invert */
 }
 
 /* ============================================================
@@ -280,9 +280,9 @@ a:hover {
 }
 
 /* ============================================================
-   4b. TOP HEADER — simple, NOT sticky. Wide bar container.
+   4b. TOP HEADER - simple, NOT sticky. Wide bar container.
    Q4 fix: the theme toggle box now matches the offer bell and
-   the mobile hamburger exactly — every header control is 32px
+   the mobile hamburger exactly - every header control is 32px
    tall, one radius, one border treatment.
    ============================================================ */
 
@@ -363,7 +363,7 @@ a:hover {
   .header-nav { display: flex; }
 }
 
-/* --- Theme toggle — Q4 consistency fix: 2px padding + 26px buttons
+/* --- Theme toggle - Q4 consistency fix: 2px padding + 26px buttons
    inside the 1px border = 32px total height, matching the bell
    (32px) and the hamburger (32px). Same radius, same colors. --- */
 
@@ -386,7 +386,7 @@ a:hover {
   flex-shrink: 0;
 }
 
-/* Mobile hamburger — only visible under 640px */
+/* Mobile hamburger - only visible under 640px */
 .menu-toggle {
   display: inline-flex;
   align-items: center;
@@ -652,7 +652,7 @@ a:hover {
 }
 
 /* ============================================================
-   8. PLANS SECTION — tab selector
+   8. PLANS SECTION - tab selector
    ============================================================ */
 
 .plans-section {
@@ -811,7 +811,7 @@ a:hover {
   top: 0.2em;
   width: 16px;
   height: 16px;
-  color: var(--color-emerald);   /* emerald = verified — seal semantics */
+  color: var(--color-emerald);   /* emerald = verified - seal semantics */
 }
 
 .plan-footer {
@@ -832,7 +832,7 @@ a:hover {
 }
 
 /* ============================================================
-   9. OFFER SECTION — "The offer" + live spot counter
+   9. OFFER SECTION - "The offer" + live spot counter
    ============================================================ */
 
 .offer-section {
@@ -903,8 +903,8 @@ a:hover {
 }
 
 /* ============================================================
-   9b. OFFER BELL — header notification-style bell (32px box,
-   matches the hamburger and — per the Q4 fix — the theme toggle).
+   9b. OFFER BELL - header notification-style bell (32px box,
+   matches the hamburger and - per the Q4 fix - the theme toggle).
    ============================================================ */
 
 .offer-bell {
@@ -1245,7 +1245,7 @@ a:hover {
 }
 
 /* ============================================================
-   14. THEME TOGGLE BUTTONS — Q4 consistency fix: 26px square
+   14. THEME TOGGLE BUTTONS - Q4 consistency fix: 26px square
    inside the 32px toggle group, so the middle control is no
    longer bigger than the bell and the hamburger beside it.
    ============================================================ */
@@ -1280,7 +1280,7 @@ a:hover {
 }
 
 /* ============================================================
-   15. GUIDE PAGE (docs layout) — ported from docs.css
+   15. GUIDE PAGE (docs layout) - ported from docs.css
    ============================================================ */
 
 .docs-hero {
@@ -1545,7 +1545,7 @@ a:hover {
 }
 
 /* ============================================================
-   15b. ASK AN AI — assistant chips + expanded context (Q4)
+   15b. ASK AN AI - assistant chips + expanded context (Q4)
    ============================================================ */
 
 .ai-assist {
@@ -1684,7 +1684,7 @@ a:hover {
 }
 
 /* ============================================================
-   16. LOGIN — the private-access gate (the only public route)
+   16. LOGIN - the private-access gate (the only public route)
    ============================================================ */
 
 .login-main {
@@ -1758,7 +1758,7 @@ a:hover {
 }
 
 /* ============================================================
-   17. RESPONSIVE — tablet / desktop section rhythm
+   17. RESPONSIVE - tablet / desktop section rhythm
    ============================================================ */
 
 @media (min-width: 768px) {

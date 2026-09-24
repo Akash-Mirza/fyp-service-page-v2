@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Icon, WA_PLAN_1, WA_PLAN_2 } from "@/lib/brand";
 
 /* ============================================================
-   FYP Desk — plans tab selector (A29 §9 port)
+   FYP Desk - plans tab selector (A29 §9 port)
    One plan card visible at a time.
    ============================================================ */
 
@@ -18,20 +18,20 @@ function Plan2Icon() {
 }
 
 const plan1Features = [
-  "A validated FYP idea + written proposal & synopsis — problem validation, tech stack, advisor-ready",
-  "Requirements (SRS) & Design (HLD · SDD · LLD) — what the system must do, database schemas, API design",
-  "Full setup of your AI-assisted development environment — installed, configured, with a short starter guide to run it",
-  "The ready guidance kit — high-level build instructions, agentic-development guidance, and free coding-agent setup (CLI & desktop)",
+  "A validated FYP idea + written proposal & synopsis - problem validation, tech stack, advisor-ready",
+  "Requirements (SRS) & Design (HLD · SDD · LLD) - what the system must do, database schemas, API design",
+  "Full setup of your AI-assisted development environment - installed, configured, with a short starter guide to run it",
+  "The ready guidance kit - high-level build instructions, agentic-development guidance, and free coding-agent setup (CLI & desktop)",
   "A walkthrough of the spec so you know how to move stage by stage",
 ];
 
 const plan2Features = [
   "Everything in Plan 1 (idea, proposal, spec, setup help)",
-  "Ongoing guidance through all stages — idea, design, mid-evaluation, codebase, defense",
-  "The complete build — code, tests, and the running app, developed for you",
+  "Ongoing guidance through all stages - idea, design, mid-evaluation, codebase, defense",
+  "The complete build - code, tests, and the running app, developed for you",
   "Mid-evaluation prep: what to show, what to say",
   "Final defense prep: demo script, likely examiner questions, how to answer the basic ones",
-  "After the build: training on your own project — how to run it, what framework and language it uses, what each part does — plus Q/A practice so you walk into the viva confident",
+  "After the build: training on your own project - how to run it, what framework and language it uses, what each part does - plus Q/A practice so you walk into the viva confident",
 ];
 
 export default function PlanTabs() {
@@ -126,7 +126,7 @@ export default function PlanTabs() {
             <p className="plan-price-note">Standard rate</p>
           </div>
           <p className="plan-description">
-            I handle your FYP from idea through to the final defense — the
+            I handle your FYP from idea through to the final defense - the
             build, the milestones, the mid-evaluation, and the defense prep.
           </p>
           <ul className="plan-features">
@@ -141,7 +141,7 @@ export default function PlanTabs() {
           </ul>
           <div className="plan-footer">
             <p className="plan-next">
-              Send me a message — we talk about your group and timeline, and I
+              Send me a message - we talk about your group and timeline, and I
               confirm capacity.
             </p>
             <a href={WA_PLAN_2} className="btn btn-primary" target="_blank" rel="noopener noreferrer">

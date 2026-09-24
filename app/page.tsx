@@ -254,7 +254,7 @@ export default function Home() {
               tell you what fits - or I tell you honestly when it does not.
             </p>
             <a href={WA_GENERAL} className="btn btn-invert btn-large" target="_blank" rel="noopener noreferrer">
-              Message me on WhatsApp
+              Message me
             </a>
             <p className="cta-note cta-reply">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">

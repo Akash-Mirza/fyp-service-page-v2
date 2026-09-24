@@ -218,39 +218,39 @@ export default function Guide() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Proposal &amp; Synopsis</td>
-                    <td>Sem 7, early</td>
-                    <td>Problem statement, objectives, tools, scope, methodology, Gantt timeline, outcomes, references</td>
+                    <td data-label="Document">Proposal &amp; Synopsis</td>
+                    <td data-label="When">Sem 7, early</td>
+                    <td data-label="Holds">Problem statement, objectives, tools, scope, methodology, Gantt timeline, outcomes, references</td>
                   </tr>
                   <tr>
-                    <td>Progress Report</td>
-                    <td>Sem 7 end / Sem 8 mid</td>
-                    <td>Completed work so far, first chapters, interim screenshots</td>
+                    <td data-label="Document">Progress Report</td>
+                    <td data-label="When">Sem 7 end / Sem 8 mid</td>
+                    <td data-label="Holds">Completed work so far, first chapters, interim screenshots</td>
                   </tr>
                   <tr>
-                    <td>Requirements (SRS)</td>
-                    <td>Sem 8</td>
-                    <td>Functional and non-functional requirements, scope, constraints</td>
+                    <td data-label="Document">Requirements (SRS)</td>
+                    <td data-label="When">Sem 8</td>
+                    <td data-label="Holds">Functional and non-functional requirements, scope, constraints</td>
                   </tr>
                   <tr>
-                    <td>Design (HLD · SDD · LLD)</td>
-                    <td>Sem 8</td>
-                    <td>System architecture, DFD, ERD, database schemas, API and component design</td>
+                    <td data-label="Document">Design (HLD · SDD · LLD)</td>
+                    <td data-label="When">Sem 8</td>
+                    <td data-label="Holds">System architecture, DFD, ERD, database schemas, API and component design</td>
                   </tr>
                   <tr>
-                    <td>Test Cases</td>
-                    <td>Sem 8</td>
-                    <td>Inputs, steps, expected vs actual result, pass/fail evidence</td>
+                    <td data-label="Document">Test Cases</td>
+                    <td data-label="When">Sem 8</td>
+                    <td data-label="Holds">Inputs, steps, expected vs actual result, pass/fail evidence</td>
                   </tr>
                   <tr>
-                    <td>Final Project Report - what students call &ldquo;documentation&rdquo;</td>
-                    <td>Sem 8</td>
-                    <td>The full life cycle: abstract, analysis, design diagrams, implementation with screenshots, testing, conclusion, references</td>
+                    <td data-label="Document">Final Project Report - what students call &ldquo;documentation&rdquo;</td>
+                    <td data-label="When">Sem 8</td>
+                    <td data-label="Holds">The full life cycle: abstract, analysis, design diagrams, implementation with screenshots, testing, conclusion, references</td>
                   </tr>
                   <tr>
-                    <td>Presentation slides</td>
-                    <td>Sem 7 and 8</td>
-                    <td>Proposal, mid-evaluation, final defense</td>
+                    <td data-label="Document">Presentation slides</td>
+                    <td data-label="When">Sem 7 and 8</td>
+                    <td data-label="Holds">Proposal, mid-evaluation, final defense</td>
                   </tr>
                 </tbody>
               </table>
